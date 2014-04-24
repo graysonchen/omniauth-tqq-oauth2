@@ -23,7 +23,7 @@ module OmniAuth
       # or as a URI parameter). This may not be possible with all
       # providers.
       uid {
-        raw_info["name"]
+        raw_info["openid"]
       }
 
       info do
